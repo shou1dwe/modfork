@@ -1,7 +1,7 @@
 package main
 
-import p "github.com/shou1dwe/modoriginal"
+import p "github.com/shou1dwe/modoriginal/v2"
 
 func main() {
-	p.Echo("test")
+	p.Echo("prefix", "test")
 }
